@@ -1,0 +1,189 @@
+  /* .card{
+    height: 50vh;
+    width: 21vw;
+  border: 2px solid black;
+  
+}
+.container{
+
+
+  
+}
+.card-img{
+    height: 20vh;
+    width: 21vw;
+ background-color: red;
+}
+.photos{
+  top: -15vh;
+  left: 53vw;
+  position: relative;
+  /* padding: 20px; */
+  /* background-color: rgb(255, 255, 255);
+  width: 384px;*/
+  /* height: 68vh; */
+  /* display: flex;
+  flex-direction: row;
+  overflow: hidden; */
+  /* overflow-x: scroll; */
+  /* gap: 10vw;
+  transition: left 0.5s ease-in-out; 
+}
+body{
+
+  padding: 50px;
+}
+.next{
+
+  position: relative;
+  left: 50%;
+}
+.nextt{
+
+
+  top: 9vh;
+  position: relative;
+  left: 16vw;
+}
+.prevv{
+
+  position: relative;
+  left: -1vw; */
+  /* top: 9vh;
+
+} -->*/
+body{
+
+  background-color: pink;
+}
+  * {
+    padding: 0;
+    margin: 0;
+  }
+
+  .nav {
+    width: 100%;
+    height: 10vh;
+    gap: 20vw;
+    background-color: black;
+    justify-content: space-around;
+    display: flex;
+    /* margin-top: 27px; */
+  }
+
+  .btn {
+    border-radius: 30px;
+    height: 8vh;
+    width: 8vw;
+
+  }
+
+  .card {
+    margin-left: 30px;
+
+
+  }
+
+  .container {
+    margin-top: 12vh;
+    /* border: 2px solid black; */
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    gap: 4vw;
+
+  }
+
+  .photos {
+    display: flex;
+    flex-direction: row;
+    /* overflow-x: scroll; */
+    /* overflow: hidden; */
+    width: 35vw;
+    height: 75vh;
+    gap: 20vw;
+  }
+
+  .nextt {
+    left: 18vw;
+    position: relative;
+    top: -21vh;
+
+  }
+
+  .prevv {
+    left: -28px;
+    position: relative;
+    top: -21vh;
+  }
+
+  @media (max-width: 1100px) {
+    body {
+      overflow-y: scroll;
+
+
+    }
+
+    .nav {
+      width: 100%;
+      justify-content: center;
+
+    }
+
+    .btn {
+    
+      border-radius: 30px;
+      height: 6vh;
+      width: 27vw;
+
+    }
+    .cus{}
+    .main{
+      display: flex;
+      flex-direction: row;
+      margin-top: 2vh;
+    }
+
+
+    .container {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .card {
+      margin-left: 5vw;
+
+    }
+
+    .photos {
+      display: flex;
+      flex-direction: row;
+      /* overflow-x: scroll; */
+      /* overflow: hidden; */
+      width: 100vw;
+      height: 75vh;
+      gap: 20vw;
+    }
+
+    .nextt {
+      position: relative;
+    }
+
+    .image {
+      height: 62vh;
+
+    }
+
+    .prevv {}
+
+    .next {
+      left: 12vh;
+      position: relative;
+      top: 31vh;
+    }
+
+
+
+  }

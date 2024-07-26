@@ -1,0 +1,214 @@
+body {
+
+    overflow: hidden;
+    background-color: pink;
+}
+
+.nav {
+    width: 100%;
+    height: 10vh;
+
+    background-color: black;
+    justify-content: space-around;
+    display: flex;
+    /* margin-top: 27px; */
+}
+
+.btn {
+    border-radius: 30px;
+    height: 8vh;
+    width: 8vw;
+
+}
+
+.main {
+    margin: 13px;
+    position: relative;
+    left: -12%;
+
+}
+
+.cus {
+    margin: 13px;
+    position: relative;
+    right: -12%;
+}
+
+.title {
+    left: 22vw;
+    top: 38vh;
+    position: relative;
+    font-size: xxx-large;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.homeinfo {
+    left: 19vw;
+    top: 45vh;
+    position: relative;
+    FONT-SIZE: larger;
+    width: 33%;
+}
+
+.photos {
+
+
+    top: -15vh;
+    left: 53vw;
+    position: relative;
+    /* padding: 20px; */
+    background-color: rgb(255, 255, 255);
+    width: 384px;
+    height: 68vh;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    /* overflow-x: scroll; */
+    gap: 10vw;
+    transition: left 0.5s ease-in-out; 
+}
+
+.home1 {}
+
+.next {
+    position: absolute;
+}
+
+.firstimg {
+
+    background-color: red;
+    height: 40px;
+    width: 40px;
+}
+
+.next {}
+
+.nextt {
+
+    left: 40vw;
+    top: 11vh;
+    height: 40px;
+    position: relative;
+}
+
+.photos img {}
+
+img {
+    height: 521px;
+    transition: left 0.5s ease-in-out; 
+}
+
+.imgcontainer {
+
+    padding: 40px;
+    position: relative;
+    bottom: 8px;
+
+}
+
+.allimgs {
+    /* width: 100%; */
+    /* height: 100%; */
+    display: flex;
+    flex-direction: row;
+    margin-right: 30px;
+    gap: 10vw;
+    transition: left 0.5s ease-in-out; 
+}
+
+.prevv {
+    left: 23vw;
+    top: 11vh;
+    height: 40px;
+    position: relative;
+    transition: 1s step-end ;
+}
+.image{
+
+    transition: left 2s ease-in-out; 
+    
+}
+@media (max-width: 1400px) {
+    body {
+        overflow-y: scroll;
+
+
+    }
+
+    .nav {
+        width: 120%;
+        justify-content: center;
+
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .btn {
+        border-radius: 30px;
+        height: 6vh;
+        width: 27vw;
+
+    }
+
+    .allinone {
+        position: relative;
+        top: 26vh;
+        left: -8vw;
+    }
+
+
+    .photos {
+        top: -7vh;
+        left: 11vw;
+        position: relative;
+        /* padding: 20px; */
+        background-color: rgb(255, 255, 255);
+        width: 405px;
+        height: 55vh;
+        display: flex;
+        flex-direction: row;
+        overflow: hidden;
+        /* overflow-x: scroll; */
+        gap: 10vw;
+    }
+
+    .title {
+        left: 15vw;
+        top: 3vh;
+        position: relative;
+        font-size: xxx-large;
+        font-family: "Dancing Script", cursive;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+    }
+
+    .homeinfo {
+        left: 16vw;
+        top: 10vh;
+        position: relative;
+        FONT-SIZE: larger;
+        width: 86%;
+    }
+
+    .nextt{
+        left: 46vw;
+        top: -6vh;
+    }
+    .prevv{
+        left: 3vw;
+        top: -6vh;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
